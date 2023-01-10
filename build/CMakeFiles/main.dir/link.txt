@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/main.dir/src/cnnoperation.c.o CMakeFiles/main.dir/src/improvedlenet5.c.o CMakeFiles/main.dir/src/matoperation.c.o CMakeFiles/main.dir/src/main.c.o  -o main 

@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/cnnoperation.h
+matoperation.h
+../include/matoperation.h
+
+../include/improvedlenet5.h
+cnnoperation.h
+../include/cnnoperation.h
+
+../include/matoperation.h
+malloc.h
+-
+
+/home/lee/pythonfile/music_classification/lenet-deploy-master1/src/main.c
+cnnoperation.h
+/home/lee/pythonfile/music_classification/lenet-deploy-master1/src/cnnoperation.h
+improvedlenet5.h
+/home/lee/pythonfile/music_classification/lenet-deploy-master1/src/improvedlenet5.h
+time.h
+/home/lee/pythonfile/music_classification/lenet-deploy-master1/src/time.h
+stdio.h
+-
+stdlib.h
+-
+unistd.h
+-
+

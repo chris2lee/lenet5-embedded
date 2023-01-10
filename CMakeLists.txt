@@ -1,0 +1,8 @@
+cmake_minimum_required(VERSION 3.6)
+project(test)
+include_directories(./include)
+set(CMAKE_BUILD_TYPE "Debug")
+SET(CMAKE_CXX_FLAGS_DEBUG "$ENV{CXXFLAGS} -O0 -Wall -g2 -ggdb")  
+SET(CMAKE_CXX_FLAGS_RELEASE "$ENV{CXXFLAGS} -O3 -Wall") 
+set(SRC_LIST ./src/cnnoperation.c ./src/improvedlenet5.c ./src/matoperation.c ./src/main.c)
+add_executable(main ${SRC_LIST})
